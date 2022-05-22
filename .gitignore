@@ -137,6 +137,7 @@ checksum/
 backup/
 data/
 data
+!edgegan/utils/data
 outputs
 outputs/
 localdata
