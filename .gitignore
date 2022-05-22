@@ -136,7 +136,6 @@ checksum/
 *.pkl
 backup/
 data/
-!edgegan/utils/data/
 data
 outputs
 outputs/
