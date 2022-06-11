@@ -42,7 +42,7 @@ _FLAGS.DEFINE_float("stage1_zl_loss", 10.0, "weight of z l1 loss")
 
 # multi class
 _FLAGS.DEFINE_boolean("multiclasses", True, "if use focal loss")
-_FLAGS.DEFINE_integer("num_classes", 14, "num of classes")
+_FLAGS.DEFINE_integer("num_classes", 5, "num of classes")
 _FLAGS.DEFINE_string("SPECTRAL_NORM_UPDATE_OPS",
                      "spectral_norm_update_ops", "")
 

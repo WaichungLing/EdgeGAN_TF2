@@ -47,7 +47,7 @@ _FLAGS.DEFINE_string("output_combination", "full",
 
 # # multi class
 _FLAGS.DEFINE_boolean("multiclasses", True, "if use focal loss")
-_FLAGS.DEFINE_integer("num_classes", 14, "num of classes")
+_FLAGS.DEFINE_integer("num_classes", 5, "num of classes")
 
 _FLAGS.DEFINE_string("type", "gpwgan", "gan type: [dcgan | wgan | gpwgan]")
 _FLAGS.DEFINE_string("optim", "rmsprop", "optimizer type: [adam | rmsprop]")
